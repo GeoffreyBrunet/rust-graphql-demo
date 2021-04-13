@@ -3,7 +3,7 @@ Getting started using [Async-graphql](https://github.com/async-graphql/async-gra
 ## Run
 
 ```bash
-cargo run --bin async-graphql-demo
+cargo run --bin rust-graphql-demo
 ```
 
 ## Endpoints
