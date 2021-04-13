@@ -24,7 +24,7 @@ async fn main() -> std::io::Result<()> {
         .data(StarWars::new())
         .finish();
 
-    println!("Playground: http://0.0.0.0.0:8000");
+    println!("Playground: http://0.0.0.0.0:8080");
 
     HttpServer::new(move || {
         App::new()
